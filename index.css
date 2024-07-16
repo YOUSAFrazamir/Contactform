@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 8px;
+    font-weight: bold;
+}
+.main_container{
+    background-color: rgb(233, 233, 233);
+    border:  1px solid lightgray;
+    border-radius: 5px;
+    margin: auto;
+}
+.header{
+    background-color: rgb(143, 175, 69);
+    border: 1px solid  rgb(143, 175, 69);
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="text"]
+select,
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px;
+}
+p{
+    margin: 20px;
+}
+input[type="submit"]{
+    padding: 16px;
+    background-color: rgb(118, 145, 55);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"]:hover{
+    background-color: rgb(93, 116, 40);
+
+
+}
+.header p{
+    padding: 0 !important;
+    margin: 0% !important;
+    padding-bottom: px;
+    text-align: center;
+}
+.header h1{
+    text-align: center;
+}
+@media only screen and (max-width:900px) {
+    .main_container{
+        margin:0%;
+        position: static;
+
+    }
+}
+@media only screen and (min-width:1020px){
+    .main_container{
+        margin: 19px 400px;
+    }
+}
